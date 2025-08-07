@@ -15,3 +15,18 @@
 - NumPy  
 - tensorflow
 - Gradio app
+
+## prerequisites 
+Ensure you have:
+
+-python 3.13 
+
+-pip 
+
+-Gradio 5.39.0
+
+## Installation 
+1. clone the repository:
+2. Create and activate a virtual enviroment
+3. install requirements from (requirements.txt)
+4. launch the gradio app
