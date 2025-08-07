@@ -40,7 +40,6 @@ with gr.Blocks(css=css) as demo:
         with gr.Column():
             label_output = gr.Label(num_top_classes=10, label="Prediction")
     predict_btn.click(fn=predict, inputs=sketchpad, outputs=label_output)
-    clear_btn.click(fn=lambda: None, inputs=None, outputs=[sketchpad, label_output])
-
+    clear_btn.click(fn=clear, inputs=None, outputs=[sketchpad, label_output])
 demo.launch()
 
